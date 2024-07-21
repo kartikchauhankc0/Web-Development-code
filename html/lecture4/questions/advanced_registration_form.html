@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="comments">comments</label>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <label for="dropdowns">country</label>
+        <select  id="dropdowns">
+            <option value="01" selected>India</option>
+            <option value="02">america</option>
+            <option value="03">australia</option>
+        </select>
+        <fieldset>
+            <legend>subscription plan</legend>
+            <label for="first">$400</label>
+            <input type="radio" name="plan" id="first" checked>
+            <label for="second">$600</label>
+            <input type="radio" name="plan" id="second">
+            <label for="third">$700</label>
+            <input type="radio" name="plan" id="third">
+        </fieldset>
+        
+        <br>
+        <br>
+        <label for="range">Volume roker </label>
+        <input type="range" min="100" max="600" value="200" step="100" name="range" id="range">
+        <br>
+        <br>
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
